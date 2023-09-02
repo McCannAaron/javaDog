@@ -2,12 +2,12 @@ public class Dog {
 
     private String name;
 
-    private Color color;
+    private String color;
     private int age;
 
     private Breed breed;
 
-    public Dog(String name, Color color, int age, Breed breed) {
+    public Dog(String name, String color, int age, Breed breed) {
         this.name = name;
         this.color = color;
         this.age = age;
@@ -20,9 +20,9 @@ public class Dog {
         this.name = name;
     }
 
-    public Color getColor() { return color; }
+    public String getColor() { return color; }
 
-    public void setColor(Color color) {
+    public void setColor(String color) {
         this.color = color;
     }
 
