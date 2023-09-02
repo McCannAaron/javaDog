@@ -1,4 +1,4 @@
 public class Dog {
-    public Dog(Color color, int i, Breed breed) {
+    public Dog(String name, Color color, int i, Breed breed) {
     }
 }
