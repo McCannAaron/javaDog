@@ -1,0 +1,5 @@
+enum Breed {
+
+    YELLOW_LAB, GOLDEN_RETRIEVER, DACHSHUND
+
+}
