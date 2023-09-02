@@ -38,4 +38,19 @@ public class Dog {
         this.breed = breed;
     }
 
+    public void sleep() {
+        System.out.println(getName() + " is sleeping.");
+    }
+
+    public void wokeUp() {
+        System.out.println(getName() + " woke up.");
+    }
+
+    public void bark() {
+        System.out.println(getName() + " is barking!");
+    }
+
+    public void eat() {
+        System.out.println(getName() + " is eating.");
+    }
 }
