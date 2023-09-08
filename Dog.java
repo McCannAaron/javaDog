@@ -14,6 +14,18 @@ public class Dog {
         this.breed = breed;
     }
 
+    public Dog(String name, int age, Breed breed) {
+        this.name = name;
+        this.age = age;
+        this.breed = breed;
+    }
+
+    public Dog(String name, String color, int age) {
+        this.name = name;
+        this.color = color;
+        this.age = age;
+    }
+
     public String getName() { return name; }
 
     public void setName(String name) {
